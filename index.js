@@ -13,5 +13,5 @@ app.use(routes);
 
 app.listen(8080, 'localhost', () => {
   console.log('listening on port', 8080);
-  db.sync({ force: false }).then(() => console.log(`connected to '${process.env.DB_NAME}' database.`));
+  db.sync({ force: false }).then(() => console.log(`connected to '${ process.env.DB_NAME }' database.`));
 });

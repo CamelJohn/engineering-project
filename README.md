@@ -43,3 +43,11 @@ The app persists data to a predefined local database (postgresql).
 
 3. The program should be able to display a student's academic state on the 'tree', giving clear indication of his/her academic state.
 ```
+
+## **TODO's**
+
+```yml
+1. Workout a 'tree' formation to render the components accordingly in the frontend.
+
+2. Remove duplicates from 'tree' formation.
+```
